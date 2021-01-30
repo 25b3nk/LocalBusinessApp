@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#bebf8c" >
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/marketshop"
+        android:scaleType="centerCrop" />
+        android:scaleType="centerCrop" />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/black"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:text="Magnet Textiles"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:layout_below="@id/image" />
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/black"
+        android:textStyle="italic|bold"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:text="New market, Bhopal"
+        android:textSize="16sp"
+        android:layout_below="@id/name" />
+    <TextView
+        android:id="@+id/phone"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/black"
+        android:text="+91-1234-56-7890"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:textSize="16sp"
+        android:layout_below="@id/location" />
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:textColor="@color/black"
+        android:text="Magnet textiles offers you a wide collection of street-wear. We offer the best choices in clothing to match your attitude."
+        android:textSize="24sp"
+        android:layout_below="@id/phone" />
+    <TextView
+        android:id="@+id/timing"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/black"
+        android:padding="16dp"
+        android:text="Hours of Operation: 9 AM - 9 PM Daily"
+        android:textSize="16sp"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>
